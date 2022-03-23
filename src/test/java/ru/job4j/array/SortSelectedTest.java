@@ -12,6 +12,7 @@ public class SortSelectedTest {
         int[] expected = new int[] {1, 2, 3, 4, 5};
         Assert.assertArrayEquals(expected, result);
     }
+
     @Test
     public void whenSortArrayOf3elements() {
         int[] data = new int[] {64, 12, 23};
