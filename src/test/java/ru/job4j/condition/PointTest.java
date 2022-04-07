@@ -32,4 +32,22 @@ public class PointTest {
         double out = a.distance(b);
         assertEquals(expected, out, 0.01);
     }
+
+    @Test
+    public void when7And6And1to9And9and4then4dot69() {
+        double expected = 4.69;
+        Point a = new Point(7, 6, 1);
+        Point b = new Point(9, 9, 4);
+        double out = a.distance3d(b);
+        assertEquals(expected, out, 0.01);
+    }
+
+    @Test
+    public void when4And2AndMinus2ToMinus1And5And10Then13dot34() {
+        double expected = 13.34;
+        Point a = new Point(4, 2, -2);
+        Point b = new Point(-1, 5, 10);
+        double out = a.distance3d(b);
+        assertEquals(expected, out, 0.01);
+    }
 }
