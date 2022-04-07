@@ -22,7 +22,6 @@ public class MaxTest {
         assertEquals(result, expected);
     }
 
-
     @Test
     public void when7and2and4then7() {
         int first = 7;
