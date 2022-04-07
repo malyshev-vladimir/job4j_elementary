@@ -33,8 +33,8 @@ public class MaxTest {
     }
 
     @Test
-    public void when13and14and8and11then14() {
-        int first = 13;
+    public void when12and14and8and11then14() {
+        int first = 12;
         int second = 14;
         int third = 8;
         int fourth = 11;
